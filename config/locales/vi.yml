@@ -1,0 +1,54 @@
+vi:
+  static_pages:
+    home:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      home: Trang chủ
+      sample: Ứng dụng mẫu
+      tutorial: Đây là trang chủ của
+      r_tutorial: Hướng dẫn về Ruby on Rails
+      welcome: Chào mừng đến với ứng dụng mẫu
+      sign: Đăng ký ngay !
+    help:
+      help: Trợ giúp
+      pagehelp: Nhận trợ giúp trên Ruby on Rails tại
+      apphelp: Nhận trợ giúp về ứng dụng này, hãy xem
+      r_help: Trang trợ giúp của Rails
+      r_book: Sách hướng dẫn về Ruby on Rails
+    contact:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      ct_p: Trang liên lạc
+      con: Liên hệ
+      ctRoR: Liên hệ với Ruby on Rails về ứng dụng mẫu tại
+    about:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      ab: Thông tin
+      twdw: để dạy phát triển web với
+      saftt: đây là ứng dụng mẫu cho hướng dẫn
+      and: và
+      isa: là một
+      b: sách
+      ss: các bài giảng
+  layouts:
+    application:
+      sample: Ứng dụng mẫu
+      rorsa: Ứng dụng mẫu Ruby on Rails
+    footer:
+      r_tutorial: Hướng dẫn về Ruby on Rails
+      by: bởi
+      ab: Thông tin
+      con: Liên hệ
+      new: Mới
+    header:
+      sample: Ứng dụng mẫu
+      home: Trang chủ
+      help: Trợ giúp
+      login: Đăng nhập
+  users:
+    new:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      signup_page: Đây sẽ là một trang đăng ký cho người dùng mới.
+      usernew: Đăng ký
