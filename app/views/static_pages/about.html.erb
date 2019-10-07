@@ -1,12 +1,11 @@
 <% provide :title, t(".ab") %>
-<%= link_to t(".eng"), locale: "en" %>
-<%= link_to t(".vie"), locale: "vi" %>
+<%= link_to t(".eng"), locale: Setting.en %>
+<%= link_to t(".vie"), locale: Setting.vi %>
 <h1><%= t(".ab") %></h1>
 <p>
-  <%= link_to "The Ruby on Rails Tutorial",
-   "https://www.railstutorial.org/" %> <%= t(".isa") %>
-  <%= link_to t(".b"), "https://www.railstutorial.org/book" %>
-  <%= t(".and") %> <%=  link_to t(".ss"), "http://screencasts.railstutorial.org/" %>
-  <%= t(".twdw") %> <%= link_to "Ruby on Rails", "http://rubyonrails.org/" %>
-  <%= t(".saftt") %>
+  <%= link_to Setting.rubyonrailstutorial, Setting.railstutorial %> <%= t(".isa") %>
+  <%= link_to t(".b"), Setting.railsbook %>
+  <%= t(".and") %> <%=  link_to t(".screencast"), Setting.screen %>
+  <%= t(".toteachweb") %> <%= link_to "Ruby on Rails", Setting.rubyonrails %>
+  <%= t(".thisisathesample") %>
 </p>
