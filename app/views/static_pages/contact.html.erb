@@ -1,7 +1,7 @@
 <% provide :title, t(".con") %>
-<%= link_to t(".eng"), locale: "en" %>
-<%= link_to t(".vie"), locale: "vi" %>
+<%= link_to t(".eng"), locale: Setting.en %>
+<%= link_to t(".vie"), locale: Setting.vi %>
 <h1><%= t(".con") %></h1>
 <p>
-  <%= t(".ctRoR") %> <%= link_to t(".ct_p"), "https://www.railstutorial.org/contact" %>
+  <%= t(".ctror") %> <%= link_to t(".contactpage"), Setting.railscon %>
 </p>

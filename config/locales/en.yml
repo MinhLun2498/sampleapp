@@ -1,33 +1,54 @@
 en:
-  static_pages: 
+  static_pages:
     home:
+      eng: English
+      vie: Vietnamese
       home: Home
       sample: Sample App
       tutorial: This is the home page for the
-      r_tutorial: Ruby on Rails Tutorial
+      rubyonrailstutorial: Ruby on Rails Tutorial
+      welcome: Welcome to the Sample App
+      sign: Sign up now!
     help:
       help: Help
       pagehelp: Get help on the Ruby on Rails Tutorial at the
       apphelp: To get help on this sample app, see the
-      r_help: Rails Tutorial help page   
-      r_book: Ruby on Rails Tutorial book
+      railshelp: Rails Tutorial help page
+      railsbook: Ruby on Rails Tutorial book
     contact:
       eng: English
       vie: Vietnamese
-      ct_p: Contact page
+      contactpage: Contact page
       con: Contact
-      ctRoR: Contact the Ruby on Rails Tutorial about the sample app at the
+      ctrubyonrails: Contact the Ruby on Rails Tutorial about the sample app at the
     about:
       eng: English
       vie: Vietnamese
       ab: About
-      twdw: to teach web development with
-      saftt: This is the sample application for the tutorial
+      toteachweb: to teach web development with
+      thisisathesample: This is the sample application for the tutorial
       and: and
       isa: is a
       b: book
-      ss: screencast series
-  layouts: 
-    application: 
+      screencast : screencast series
+  layouts:
+    application:
       sample: Sample app
-      rorsa: Ruby on Rails Tutorial Sample App     
+      rubyonrailsapp: Ruby on Rails Tutorial Sample App
+    footer:
+      rubyonrailstutorial: Ruby on Rails Tutorial
+      by: by
+      ab: About
+      con: Contact
+      new: News
+    header:
+      sample: Sample App
+      home: Home
+      help: Help
+      login: Login
+  users:
+    new:
+      eng: English
+      vie: Vietnamese
+      signuppage: This will be a signup page for new users.
+      usernew: Sign Up
