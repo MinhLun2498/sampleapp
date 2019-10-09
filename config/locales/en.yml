@@ -42,6 +42,8 @@ en:
       con: Contact
       new: News
     header:
+      eng: English
+      vie: Vietnamese
       sample: Sample App
       home: Home
       help: Help
@@ -52,3 +54,16 @@ en:
       vie: Vietnamese
       signuppage: This will be a signup page for new users.
       usernew: Sign Up
+      name: Name
+      email: Email
+      password: Password
+      passwordconfirmation: Password Confirmation
+      signup: Sign Up
+      createaccount: Create my account
+    create:
+      welcome: Welcome to the Sample App!
+      warning: Warning!
+    notfound:
+      notfound: Notfound
+  error: error
+  theformcontains: The form contains

@@ -42,6 +42,8 @@ vi:
       con: Liên hệ
       new: Mới
     header:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
       sample: Ứng dụng mẫu
       home: Trang chủ
       help: Trợ giúp
@@ -52,3 +54,16 @@ vi:
       vie: Tiếng Việt
       signuppage: Đây sẽ là một trang đăng ký cho người dùng mới.
       usernew: Đăng ký
+      name: Tên
+      email: Email
+      password: Mật Khẩu
+      passwordconfirmation: Xác Nhận lại mật khẩu
+      signup: Đăng Ký
+      createaccount: Tạo tài khoản của tôi
+    create:
+      welcome: Chào mừng tới ứng dụng mẫu!
+      warning: Cảnh báo!
+    notfound:
+      notfound: Không tìm thấy
+  error: lỗi
+  theformcontains: Biểu mẫu có chứa

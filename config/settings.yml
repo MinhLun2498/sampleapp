@@ -11,4 +11,5 @@ en: en
 vi: vi
 max50: 50
 max255: 255
-min: 6
+min6: 6
+size80: 80
