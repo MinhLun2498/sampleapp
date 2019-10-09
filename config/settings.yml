@@ -9,3 +9,6 @@ mh: "http://www.michaelhartl.com/"
 newrails: "http://news.railstutorial.org/"
 en: en
 vi: vi
+max50: 50
+max255: 255
+min: 6
