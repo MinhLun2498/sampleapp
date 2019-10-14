@@ -1,13 +1,13 @@
 <footer class="footer">
   <small>
-    <%= link_to Settings.railstutorial %>
+    <%= link_to t(".rubyonrailstutorial"), Settings.railstutorial %>
     <%= t(".by") %> <%= link_to "Michael Hartl", Settings.mh %>
   </small>
   <nav>
     <ul>
       <li><%= link_to t(".ab"), about_path %></li>
       <li><%= link_to t(".con"), contact_path %></li>
-      <li> <%= link_to Settings.newrails %></li>
+      <li><%= link_to t(".new"), Settings.newrails %></li>
     </ul>
   </nav>
 </footer>
