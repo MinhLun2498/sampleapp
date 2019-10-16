@@ -2,12 +2,12 @@
 <h1><%= t(".sample") %></h1>
 <p>
   <%= t(".tutorial") %> <%= link_to t(".rubyonrailstutorial"), Settings.railstutorial %>
-</p>
+ </p>
 <div class="center jumbotron">
   <h1> <%= t(".welcome") %></h1>
   <h2>
     <%= t(".tutorial") %>
-    <%= link_to Settings.railstutorial %><%= t(".rubyonrailstutorial") %>
+    <%= link_to t(".rubyonrailstutorial"), Settings.railstutorial %>
   </h2>
   <%= link_to t(".sign"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
