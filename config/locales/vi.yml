@@ -48,6 +48,20 @@ vi:
       home: Trang chủ
       help: Trợ giúp
       login: Đăng nhập
+      user: Người dùng
+      logout: Đăng xuất
+      ab: Thông tin
+      profile: Hồ sơ
+      settings: Cài đặt
+      account: Tài khoản
+  sessions:
+    new:
+      login: Đăng nhập
+      email: Email
+      password: Mật Khẩu
+      newuser: Chưa có tài khoản ?
+      signupnow: Đăng ký ngay !
+    wrong: Email không tồn tại hoặc sai mật khẩu !
   users:
     new:
       eng: Tiếng Anh

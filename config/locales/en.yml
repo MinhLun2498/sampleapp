@@ -48,6 +48,20 @@ en:
       home: Home
       help: Help
       login: Login
+      user: User
+      logout: Log Out
+      ab: About
+      profile: Profile
+      settings: Settings
+      account: Account
+  sessions:
+    new:
+      login: Login
+      email: Email
+      password: Password
+      newuser: New user ?
+      signupnow: Sign up now!
+    wrong: Invalid email/password combination
   users:
     new:
       eng: English
