@@ -61,6 +61,7 @@ vi:
       password: Mật Khẩu
       newuser: Chưa có tài khoản ?
       signupnow: Đăng ký ngay !
+      remember: Nhớ tài khoản
     wrong: Email không tồn tại hoặc sai mật khẩu !
   users:
     new:

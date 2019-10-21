@@ -15,3 +15,4 @@ min6: 6
 size80: 80
 size90: 90
 validemailregex: !ruby/regexp '/\A[ơ\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+min1: 1
