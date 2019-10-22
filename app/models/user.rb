@@ -3,7 +3,7 @@ class User < ApplicationRecord
 
   before_save{email.downcase!}
 
-  VALID_EMAIL_REGEX = Settings.validemailregex.freeze
+  VALID_EMAIL_REGEX = Settings.validemailregex
 
   validates :name, presence: true, length: {maximum: Settings.max50}
   validates :email, presence: true, length: {maximum: Settings.max255},

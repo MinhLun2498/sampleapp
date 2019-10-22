@@ -64,6 +64,12 @@ en:
       remember: Remember me on this computer
     wrong: Invalid email/password combination
   users:
+    form:
+      name: Name
+      email: Email
+      password: Password
+      passwordconfirmation: Password Confirmation
+      createaccount: Create my account
     new:
       eng: English
       vie: Vietnamese
@@ -78,7 +84,23 @@ en:
     create:
       welcome: Welcome to the Sample App!
       warning: Warning!
+    edit:
+      pleaselogin: Please log in.
+      deleted: User deleted
+      update: Profile updated
+      edituser: Edit User
+      updateprofile: Update your profile
+      changesavatar: Changes Avatar
+      savechanges: Save Changes
+      fail: Can not update
     notfound:
+      notfound: Notfound
+    index:
+      allusers: All Users
+    user:
+      delete: delete
+      sure: You sure ?
+    load:
       notfound: Notfound
   error: error
   theformcontains: The form contains
