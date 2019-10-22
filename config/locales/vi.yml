@@ -64,6 +64,12 @@ vi:
       remember: Nhớ tài khoản
     wrong: Email không tồn tại hoặc sai mật khẩu !
   users:
+    form:
+      name: Tên
+      email: Email
+      password: Mật Khẩu
+      passwordconfirmation: Xác Nhận lại mật khẩu
+      createaccount: Tạo tài khoản của tôi
     new:
       eng: Tiếng Anh
       vie: Tiếng Việt
@@ -78,7 +84,23 @@ vi:
     create:
       welcome: Chào mừng tới ứng dụng mẫu!
       warning: Cảnh báo!
+    edit:
+      pleaselogin: Hãy đăng nhập
+      deleted: Tài khoàn đã được xóa
+      update: Hồ sơ đã được cập nhập
+      edituser: Chỉnh sửa người dùng
+      updateprofile: Cập nhập hồ sơ của bạn
+      changesavatar: Chỉnh sửa ảnh đại diện
+      savechanges: Lưu thay đổi
+      fail: Không thể cập nhập
     notfound:
+      notfound: Không tìm thấy
+    index:
+      allusers: Tất cả người dùng
+    user:
+      delete: xóa
+      sure: Bạn chắc chắn chứ ?
+    load:
       notfound: Không tìm thấy
   error: lỗi
   theformcontains: Biểu mẫu có chứa

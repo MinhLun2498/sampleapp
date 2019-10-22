@@ -14,5 +14,8 @@ max255: 255
 min6: 6
 size80: 80
 size90: 90
+size50: 50
 validemailregex: !ruby/regexp '/\A[ơ\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 min1: 1
+gravatar_email_link: "http://gravatar.com/emails"
+page10: 10
