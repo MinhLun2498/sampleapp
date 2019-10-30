@@ -5,16 +5,10 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.page(params[:page]).per Settings.page10
+    @users = User.page(params[:page]).per Settings.n15
   end
 
-  def show
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "users.notfound.notfound"
-    redirect_to root_url
-  end
+  def show; end
 
   def new
     @user = User.new
@@ -23,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "users.create.welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "users.create.pleasecheckmail"
+      redirect_to root_url
     else
       flash[:warning] = t "users.create.warning"
       render :new
@@ -63,7 +57,6 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in?
 
-    store_location
     flash[:danger] = t "users.edit.pleaselogin"
     redirect_to login_url
   end
@@ -75,6 +68,7 @@ class UsersController < ApplicationController
   def load_user
     @user = User.find_by id: params[:id]
     return if @user
+
     flash[:danger] = t "user.load.notfound"
     redirect_to root_url
   end

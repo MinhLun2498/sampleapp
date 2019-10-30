@@ -55,6 +55,8 @@ vi:
       settings: Cài đặt
       account: Tài khoản
   sessions:
+    accountnot: Tài khoản chưa được kích hoạt.
+    checkmail: Kiểm tra email của bạn cho các liên kết kích hoạt.
     new:
       login: Đăng nhập
       email: Email
@@ -84,6 +86,7 @@ vi:
     create:
       welcome: Chào mừng tới ứng dụng mẫu!
       warning: Cảnh báo!
+      pleasecheckmail: Vui lòng kiểm tra email của bạn để kích hoạt tài khoản !
     edit:
       pleaselogin: Hãy đăng nhập
       deleted: Tài khoàn đã được xóa
@@ -102,5 +105,17 @@ vi:
       sure: Bạn chắc chắn chứ ?
     load:
       notfound: Không tìm thấy
+  user_mailer:
+    account_activation:
+      account_activation: Kích hoạt tài khoản
+      welcome: Chào mừng bạn đến với ứng dụng! Bấm vào link bên dưới để kích hoạt tài khoản của bạn
+      hi: Xin chào
+      sample: Ứng dụng mẫu
+      activate: Kích hoạt
+    account_activated: Tài khoản đã được kích hoạt thành công!
+    invalid_activate_link: Kích hoạt tài khoản thất bại
+  the_form_contains: Mẫu đăng kí có chứa
   error: lỗi
   theformcontains: Biểu mẫu có chứa
+    account:
+      activation: Kích hoạt tài khoản

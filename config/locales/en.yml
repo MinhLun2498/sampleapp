@@ -55,6 +55,8 @@ en:
       settings: Settings
       account: Account
   sessions:
+    accountnot: Account not activated.
+    checkmail: Check your email for the activation link.
     new:
       login: Login
       email: Email
@@ -84,6 +86,7 @@ en:
     create:
       welcome: Welcome to the Sample App!
       warning: Warning!
+      pleasecheckmail: Please checkout your email to activate account !
     edit:
       pleaselogin: Please log in.
       deleted: User deleted
@@ -102,5 +105,18 @@ en:
       sure: You sure ?
     load:
       notfound: Notfound
+  user_mailer:
+    account_activation:
+      account_activation: Account activation
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
+      hi: Hi
+      sample: Sample app
+      activate: Activate
+    account_activated: Account activated!
+    invalid_activate_link: Invalid activation link
+  the_form_contains: The form contains
   error: error
   theformcontains: The form contains
+    account:
+      activation: Account activation
+
