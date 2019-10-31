@@ -19,3 +19,4 @@ validemailregex: !ruby/regexp '/\A[ơ\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 min1: 1
 gravatar_email_link: "http://gravatar.com/emails"
 page10: 10
+n2: 2

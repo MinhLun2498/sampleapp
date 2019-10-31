@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    if @user&.authenticate @session[:password]
+    if @user&.authenticate @session_params[:password]
       if @user.activated?
         log_in user
         session[:remember_me] == Settings.min1 ? remember(user) : forget(user)
