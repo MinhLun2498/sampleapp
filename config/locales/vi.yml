@@ -64,6 +64,7 @@ vi:
       newuser: Chưa có tài khoản ?
       signupnow: Đăng ký ngay !
       remember: Nhớ tài khoản
+      forgot_password: Quên mật khẩu
     wrong: Email không tồn tại hoặc sai mật khẩu !
   users:
     form:
@@ -105,6 +106,31 @@ vi:
       sure: Bạn chắc chắn chứ ?
     load:
       notfound: Không tìm thấy
+  password_resets:
+    update:
+      empty_password_error: Không để trống
+      password_reset_done: Thay đổi thành công
+    new:
+      forgot_password: Đặt lại mật khẩu
+      submit_btn: Gửi
+      password_reset_email: Email đã gửi để đặt lại mật khẩu
+      email: Email
+    edit:
+      forgot_password: Đặt lại mật khẩu
+      password: Mật khẩu
+      password_confirm: Xác nhận lại mật khẩu
+      submit_btn: Cập nhật mật khẩu
+      empty_password_error: Mật khẩu không được để trống
+      password_reset_done: Mật khẩu đã được cập nhật
+  password_reset_invalid: Đặt lại mật khẩu không hợp lệ
+  not_found_email: Vui lòng nhập email
+  password_reset_expired: Đặt lại mật khẩu đã hết hạn
+  password_reset_message: Tin nhắn đặt lại mật khẩu
+  password_reset: Thay đổi mật khẩu
+  account_activation: Kích hoạt tài khoản
+  account_activations:
+    success: Kích hoạt thành công
+    fail: Kích hoạt thất bại
   user_mailer:
     account_activation:
       account_activation: Kích hoạt tài khoản
@@ -117,5 +143,5 @@ vi:
   the_form_contains: Mẫu đăng kí có chứa
   error: lỗi
   theformcontains: Biểu mẫu có chứa
-    account:
-      activation: Kích hoạt tài khoản
+  account:
+    activation: Kích hoạt tài khoản
