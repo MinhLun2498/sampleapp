@@ -9,6 +9,7 @@ en:
       rubyonrailstutorial: Ruby on Rails Tutorial
       welcome: Welcome to the Sample App
       sign: Sign up now!
+      micropost_feed: Micropost feed
     help:
       help: Help
       pagehelp: Get help on the Ruby on Rails Tutorial at the
@@ -88,7 +89,12 @@ en:
       welcome: Welcome to the Sample App!
       warning: Warning!
       pleasecheckmail: Please checkout your email to activate account !
+      invalid: Invalid !
     edit:
+      name: Name
+      email: Email
+      password: Password
+      passwordconfirmation: Password Confirmation
       pleaselogin: Please log in.
       deleted: User deleted
       update: Profile updated
@@ -145,3 +151,19 @@ en:
   theformcontains: The form contains
   account:
     activation: Account activation
+  must_be_a: must be a valid image format
+  ago: ago
+  posted: Posted
+  you_sure: You sure ?
+  delete: Delete
+  microposts: Microposts
+  please_log_in: Please log in !
+  micropost_deleted: Micropost deleted
+  micropost_deleted_failed: Micropost deleted failed
+  micropost_not_correct: Micropost not correct
+  micropost_created: Micropost created!
+  view_my_profile: View my profile
+  post: Post
+  should_be_less: Should be less than 5MB
+  compose_new_micropost: Compose new micropost
+  maximum_file: Maximum file size is 5MB. Please choose a smaller file.

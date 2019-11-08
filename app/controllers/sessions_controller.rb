@@ -6,9 +6,9 @@ class SessionsController < ApplicationController
   def create
     if @user&.authenticate @session_params[:password]
       if @user.activated?
-        log_in user
-        session[:remember_me] == Settings.min1 ? remember(user) : forget(user)
-        redirect_to user
+        log_in @user
+        session[:remember_me] == Settings.min1 ? remember(@user) : forget(@user)
+        redirect_to @user
       else
         flash[:warning] = t "sessions.accountnot"
         redirect_to root_url
