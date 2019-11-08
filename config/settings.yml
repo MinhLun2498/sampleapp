@@ -1,3 +1,4 @@
+fb: https://www.facebook.com/NguyenKhacBaoMinh24
 railstutorial: "https://www.railstutorial.org/"
 rubyonrails: "http://rubyonrails.org/"
 railshelp: "https://www.railstutorial.org/help"
@@ -20,3 +21,9 @@ min1: 1
 gravatar_email_link: "http://gravatar.com/emails"
 page10: 10
 n2: 2
+content: 140
+image: ["image/jpeg", "image/gif", "image/png"]
+n5: 5
+SIZE_MAX: 500
+string_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+IMAGE_TYPE: image/jpeg,image/gif,image/png

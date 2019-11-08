@@ -9,6 +9,7 @@ vi:
       rubyonrailstutorial: Hướng dẫn về Ruby on Rails
       welcome: Chào mừng đến với ứng dụng mẫu
       sign: Đăng ký ngay !
+      micropost_feed: Micropost feed
     help:
       help: Trợ giúp
       pagehelp: Nhận trợ giúp trên Ruby on Rails tại
@@ -88,7 +89,12 @@ vi:
       welcome: Chào mừng tới ứng dụng mẫu!
       warning: Cảnh báo!
       pleasecheckmail: Vui lòng kiểm tra email của bạn để kích hoạt tài khoản !
+      invalid: Không hợp lệ !
     edit:
+      name: Tên
+      email: Email
+      password: Mật Khẩu
+      passwordconfirmation: Xác Nhận lại mật khẩu
       pleaselogin: Hãy đăng nhập
       deleted: Tài khoàn đã được xóa
       update: Hồ sơ đã được cập nhập
@@ -145,3 +151,19 @@ vi:
   theformcontains: Biểu mẫu có chứa
   account:
     activation: Kích hoạt tài khoản
+  ago: Trước
+  posted: Tải lên
+  you_sure: bạn đã chắc chắn ?
+  delete: Xóa
+  microposts: Microposts
+  please_log_in: Hãy đăng nhập !
+  micropost_deleted: Micropost đã xóa
+  micropost_deleted_failed: Micropost xóa không thành công
+  micropost_not_correct: Micropost không đúng
+  micropost_created: Micropost được tạo !
+  must_be_a: Phải là một định dạng hình ảnh hợp lệ
+  view_my_profile: Xem hồ sơ của tôi
+  post: Bài Đăng
+  should_be_less: Nên dưới 5MB
+  compose_new_micropost: Soạn micropost mới
+  maximum_file: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn.
