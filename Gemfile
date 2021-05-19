@@ -12,7 +12,7 @@ gem "faker", "2.1.2"
 gem "figaro"
 gem "jbuilder", "~> 2.7"
 gem "kaminari"
-gem "puma", "~> 3.11"
+gem "puma", "~> 4.3"
 gem "rails", "~> 6.0.0"
 gem "rails-i18n", "~> 6.0.0"
 gem "rubocop", "~> 0.74.0", require: false
